@@ -1,5 +1,7 @@
 html{
     background: #f3f5fc;
+    width: 1440px;
+    height: 1024px;
 }
 
 .logo{
@@ -7,4 +9,21 @@ html{
     height: 48px;
     padding-top: 40px ;
     padding-left: 84px;
+}
+
+.inputSinEncriptar{
+    position: absolute;
+    background: #f3f5fc;
+    width: 577px;
+    height: 48px;
+    margin-top: 168px;
+    margin-left: 240px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 150%;
+    
+
 }
