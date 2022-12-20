@@ -19,8 +19,7 @@ html{
     height: 48px;
     margin-top: 168px;
     margin-left: 240px;
-    border: solid;
-    border-color: #0A3871;
+    border: none;
     font-family: 'Inter';
     font-style: normal;
     font-size: 32px;
@@ -31,4 +30,16 @@ html{
 
 .inputSinEncriptar::placeholder{
     color: #0A3871;
+}
+
+
+.rectSalida{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    border: none;
+    border-radius: 32px;
+    margin: 40px 40px 40px 1000px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-color: white;
 }
