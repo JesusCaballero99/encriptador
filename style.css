@@ -1,7 +1,7 @@
 html{
     background: #f3f5fc;
-    width: 1440px;
-    height: 1024px;
+    max-width: 1440px;
+    max-height: 1024px;
 }
 
 header, main{
@@ -24,7 +24,8 @@ header, main{
     justify-content: center;
     flex-direction: column;
     background-color: red;
-    size: 100vw;
+    width: 100vw;
+    min-height: 50vh;
     
 }
 
@@ -34,3 +35,23 @@ header, main{
     margin-top: 168px;
     margin-left: 240px;
 }
+
+.inputSinEncriptar::placeholder{
+    color:#0a3871;
+}
+
+.output{
+    background-color: blue;
+    height: 944px;
+}
+
+.rectangulo{
+    width: 400px;
+    height: 944px;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px;
+    margin-top: -3rem;
+    margin-right: 40px;
+}
+    
